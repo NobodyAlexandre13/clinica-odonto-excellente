@@ -1,0 +1,250 @@
+.sobre{
+    margin-top: 6%;
+    padding: 20px;
+}
+.sobre h1{
+    text-align: center;
+    font-size: 28px;
+    color: #252525;
+    margin-bottom: 18px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4%;
+}
+.textoSobre{
+    width: 450px;
+    text-align: justify;
+    animation: fadeInRigth 1.5s ease-in-out alternate;
+}
+.imagemSobre{
+    width: 550px;
+    height: 350px;
+    box-shadow: 0 0 3px #d6333b;
+    animation: fadeInLeft 1.5s ease-in-out alternate;
+}
+.imagemSobre img{
+    width: 100%;
+    height: 100%;
+}
+.verMais{
+    margin-top: 15px;
+}
+.verMais a{
+    padding: 10px 15px;
+    background-color: #cb242b;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #cb242b;
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 6%;
+}
+.service .titulo-service{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #f1f1f1;
+}
+.service .titulo-service h1{
+    font-size: 28px;
+}
+.grid-service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.service-area{
+    width: 250px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    animation: fadeInLeft 1.5s ease-in-out alternate;
+    border-radius: 5px;
+}
+.service-area h1{
+    color: #252525;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+.text-service{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.service-area img{
+    width: 80%;
+}
+.btn-agenda-service{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    animation: fadeInLeft 1.5s ease-in-out alternate;
+}
+.btn-agenda-service a{
+    padding: 15px 25px;
+    background-color: #f1f1f1;
+    color: #cb242b;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn-agenda-service a:hover{
+    background-color: #e0e0e0;
+    transition: .5s all;
+}
+.btn-ver-mais{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    animation: fadeInLeft 1.5s ease-in-out alternate;
+}
+.btn-ver-mais a{
+    font-size: 18px;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+.btn-ver-mais a i{
+    font-size: 20px;
+}
+.comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6%;
+}
+.titulo-comment h1{
+    color: #252525;
+    font-size: 28px;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 18px;
+}
+.comment .flex-comment{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+.comment-area{
+    background-color: #ffa2a2;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 15px;
+    width: 300px;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+.icon-comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon-comment .icon{
+    width: 60px;
+    height: 60px;
+    background-color: #cb242b;
+    border: 3px solid #ffffff;
+    margin-top: -30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.icon-comment .name-icon{
+    font-weight: 600;
+    font-size: 16px;
+    color: #838383;
+}
+.text-comment{
+    margin: 10px 0;
+    text-align: justify;
+}
+.efeito{
+    width: 80px;
+    background-color: #cb242b;
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+.efeito i{
+    font-size: 18px;
+}
+.redes-social-comment{
+    background-color: #cb242b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.redes-social-comment h1{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+.icon-social{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.icon-social a{
+    color: #fff;
+    font-size: 20px;
+}
+@media screen and (max-width: 600px) {
+    .header a:not(:first-child) {display: none;}
+    .header a.icon {
+        float: right;
+        display: block;
+    }
+}
+@media screen and (max-width: 600px) {
+    .header.responsive {position: relative;}
+    .header.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .header.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}

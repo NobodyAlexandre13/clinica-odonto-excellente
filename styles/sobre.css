@@ -1,0 +1,132 @@
+.sobre{
+    margin-top: 6%;
+    padding: 20px;
+}
+.sobre h1{
+    text-align: center;
+    font-size: 28px;
+    color: #252525;
+    margin-bottom: 18px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4%;
+}
+.textoSobre{
+    width: 450px;
+    text-align: justify;
+    animation: fadeInRigth 1.5s ease-in-out alternate;
+}
+.imagemSobre{
+    width: 550px;
+    height: 350px;
+    box-shadow: 0 0 3px #d6333b;
+    animation: fadeInLeft 1.5s ease-in-out alternate;
+}
+.imagemSobre img{
+    width: 100%;
+    height: 100%;
+}
+.verMais{
+    margin-top: 15px;
+}
+.verMais a{
+    padding: 10px 15px;
+    background-color: #cb242b;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.text-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    width: 80%;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6%;
+}
+.comment .flex-comment{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+.comment-area{
+    background-color: #cb242b;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 15px;
+    width: 300px;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+.icon-comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon-comment .icon{
+    width: 60px;
+    height: 60px;
+    background-color: #cb242b;
+    border: 3px solid #ffffff;
+    margin-top: -30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.icon-comment .name-icon{
+    font-weight: 600;
+    font-size: 18px;
+    color: #f3f3f3;
+}
+.text-comment{
+    margin: 10px 0;
+    height: 125px;
+}
+.local-excellente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6%;
+}
+.local-excellente h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.local{
+    background-color: #cb242b;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 15px;
+    width: 80%;
+    justify-self: center;
+}
+.local h1{
+    font-size: 20px;
+}

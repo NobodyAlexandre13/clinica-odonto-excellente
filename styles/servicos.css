@@ -1,0 +1,81 @@
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 6%;
+}
+.grid-service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.service-area{
+    width: 250px;
+    background-color: #ff6a6a;
+    padding: 20px;
+    color: #fff;
+    animation: fadeInLeft 1.5s ease-in-out alternate;
+    border-radius: 5px;
+}
+.service-area h1{
+    color: #f1f1f1;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+.text-service{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.service-area img{
+    width: 80%;
+}
+.btn-agenda-service{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    animation: fadeInLeft 1.5s ease-in-out alternate;
+}
+.btn-agenda-service a{
+    padding: 15px 25px;
+    background-color: #f1f1f1;
+    color: #cb242b;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn-agenda-service a:hover{
+    background-color: #e0e0e0;
+    transition: .5s all;
+}
+.btn-ver-mais{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    animation: fadeInLeft 1.5s ease-in-out alternate;
+}
+.btn-ver-mais a{
+    font-size: 18px;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+.btn-ver-mais a i{
+    font-size: 20px;
+}
+.decrition{
+    margin-top: 20px;
+    width: 80%;
+    background-color: #cb242b;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
