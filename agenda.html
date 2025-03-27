@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/geral.css">
+    <link rel="stylesheet" href="styles/agendar.css">
     <title>Agendar Consulta | Clinica Odonto Excellente</title>
 </head>
 <body>
@@ -27,6 +28,65 @@
             </nav>
         </div>
     </header>
+    <div class="home">
+        <div class="logoHome">
+            <img src="img/logoExcellenteHome.png" alt="Logotipo Odonto Excellente da home" srcset="">
+        </div>
+        <div class="textIntro">
+            <h1>Agenda já o teu tratamento</h1>
+            <span>Faça a sua consulta de avaliação GRATUITA</span>
+        </div>
+    </div>
+    <div class="container-flex">
+        <div class="form-container">
+            <h2>Faça sua Marcação</h2>
+            <form id="secureForm">
+                <input type="text" id="nome" placeholder="Teu nome*" >
+                <span class="error" id="errorNome">Nome inválido!</span>
+                
+                <input type="email" id="email" placeholder="Teu Email*" >
+                <span class="error" id="errorEmail">E-mail inválido!</span>
+    
+                <input type="date" id="data" >
+                <span class="error" id="errorData">Escolha uma data futura!</span>
+    
+                <select id="servico" >
+                    <option value="" disabled selected>Escolha um serviço</option>
+                    <option value="Limpeza e check-ups">Limpeza e check-ups</option>
+                    <option value="Aparelhos e ortodontia">Aparelhos e ortodontia</option>
+                    <option value="Clareamento">Clareamento</option>
+                    <option value="Implantes dentários">Implantes dentários</option>
+                    <option value="Consulta de avaliação">Consulta de avaliação</option>
+                </select>
+                <span class="error" id="errorServico">Escolha um serviço!</span>
+    
+                <input type="submit" value="Fazer marcação">
+            </form>
+        </div>
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <p id="modal-message"></p>
+                <button class="close-btn" onclick="fecharModal()">Fechar</button>
+            </div>
+        </div>
+        <div class="whatsapp">
+            <h2>Marcação pelo WhatsApp</h2>
+            <form id="marcacaoForm">
+                <input type="text" id="nome" placeholder="Teu nome*" required>
+                <input type="email" id="email" placeholder="Teu Email*" required>
+                <input type="date" id="data" required>
+                <select id="servico" required>
+                    <option value="" disabled selected>Escolha um serviço</option>
+                    <option value="Limpeza e check-ups">Limpeza e check-ups</option>
+                    <option value="Aparelhos e ortodontia">Aparelhos e ortodontia</option>
+                    <option value="Clareamento">Clareamento</option>
+                    <option value="Implantes dentários">Implantes dentários</option>
+                    <option value="Consulta de avaliação">Consulta de avaliação</option>
+                </select>
+                <input type="submit" value="Fazer marcação via WhatsApp">
+            </form>
+        </div>
+    </div>
     <footer>
         <div class="footer">
             <div class="logo-footer">
@@ -71,5 +131,8 @@
             <p>Todos Direitos Reservados © Alexandre Sampaio 2025</p>
         </div>
     </footer>
+    <script src="js/formVerification.js"></script>
+    <script src="js/sendEmail.js"></script>
+    <script src="js/sendWhatsApp.js"></script>
 </body>
 </html>
