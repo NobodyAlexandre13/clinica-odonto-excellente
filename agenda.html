@@ -28,65 +28,41 @@
             </nav>
         </div>
     </header>
-    <div class="home">
-        <div class="logoHome">
-            <img src="img/logoExcellenteHome.png" alt="Logotipo Odonto Excellente da home" srcset="">
-        </div>
-        <div class="textIntro">
-            <h1>Agenda já o teu tratamento</h1>
-            <span>Faça a sua consulta de avaliação GRATUITA</span>
-        </div>
-    </div>
-    <div class="container-flex">
-        <div class="form-container">
-            <h2>Faça sua Marcação</h2>
-            <form id="secureForm">
-                <input type="text" id="nome" placeholder="Teu nome*" >
-                <span class="error" id="errorNome">Nome inválido!</span>
-                
-                <input type="email" id="email" placeholder="Teu Email*" >
-                <span class="error" id="errorEmail">E-mail inválido!</span>
-    
-                <input type="date" id="data" >
-                <span class="error" id="errorData">Escolha uma data futura!</span>
-    
-                <select id="servico" >
-                    <option value="" disabled selected>Escolha um serviço</option>
-                    <option value="Limpeza e check-ups">Limpeza e check-ups</option>
-                    <option value="Aparelhos e ortodontia">Aparelhos e ortodontia</option>
-                    <option value="Clareamento">Clareamento</option>
-                    <option value="Implantes dentários">Implantes dentários</option>
-                    <option value="Consulta de avaliação">Consulta de avaliação</option>
-                </select>
-                <span class="error" id="errorServico">Escolha um serviço!</span>
-    
-                <input type="submit" value="Fazer marcação">
-            </form>
-        </div>
-        <div class="modal" id="modal">
-            <div class="modal-content">
-                <p id="modal-message"></p>
-                <button class="close-btn" onclick="fecharModal()">Fechar</button>
+    <div class="home flex-container">
+        <div>
+            <div class="logoHome">
+                <img src="img/logoExcellenteHome.png" alt="Logotipo Odonto Excellente da home" srcset="">
+            </div>
+            <div class="textIntro">
+                <h1>Agenda já o teu tratamento</h1>
+                <span>Faça a sua consulta de avaliação GRATUITA</span>
             </div>
         </div>
-        <div class="whatsapp">
-            <h2>Marcação pelo WhatsApp</h2>
-            <form id="marcacaoForm">
-                <input type="text" id="nome" placeholder="Teu nome*" required>
-                <input type="email" id="email" placeholder="Teu Email*" required>
-                <input type="date" id="data" required>
-                <select id="servico" required>
-                    <option value="" disabled selected>Escolha um serviço</option>
-                    <option value="Limpeza e check-ups">Limpeza e check-ups</option>
-                    <option value="Aparelhos e ortodontia">Aparelhos e ortodontia</option>
-                    <option value="Clareamento">Clareamento</option>
-                    <option value="Implantes dentários">Implantes dentários</option>
-                    <option value="Consulta de avaliação">Consulta de avaliação</option>
-                </select>
-                <input type="submit" value="Fazer marcação via WhatsApp">
-            </form>
+        <div class="container-flex">
+            <div class="whatsapp">
+                <h2>Faça a tua marcação</h2>
+                <form id="marcacaoForm">
+                    <input type="text" id="nome" placeholder="Teu nome*" required>
+                    <input type="email" id="email" placeholder="Teu Email*" required>
+                    <input type="date" id="data" required>
+                    <select id="servico" required>
+                        <option value="" disabled selected>Escolha um serviço</option>
+                        <option value="Limpeza e check-ups">Limpeza e check-ups</option>
+                        <option value="Aparelhos e ortodontia">Aparelhos e ortodontia</option>
+                        <option value="Clareamento">Clareamento</option>
+                        <option value="Implantes dentários">Implantes dentários</option>
+                        <option value="Consulta de avaliação">Consulta de avaliação</option>
+                    </select>
+                    <input type="submit" value="Fazer marcação via WhatsApp">
+                </form>
+            </div>
         </div>
     </div>
+    
+    <div class="text">
+        Nossa prioridade é Cuidar do seu Sorriso
+    </div>
+
     <footer>
         <div class="footer">
             <div class="logo-footer">
